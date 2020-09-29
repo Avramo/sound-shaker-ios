@@ -15,6 +15,14 @@
 		84A97C0923F4170000727ED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A97C0723F4170000727ED2 /* LaunchScreen.storyboard */; };
 		84A97C1423F4170100727ED2 /* Sound_ShakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A97C1323F4170100727ED2 /* Sound_ShakerTests.swift */; };
 		84A97C1F23F4170100727ED2 /* Sound_ShakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A97C1E23F4170100727ED2 /* Sound_ShakerUITests.swift */; };
+		84A97C2D23F4170D00727ED2 /* boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A97C2C23F4170D00727ED2 /* boing.mp3 */; };
+		84A97C2F23F417E800727ED2 /* tweet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A97C2E23F417E800727ED2 /* tweet.mp3 */; };
+		84A97C3123F4183F00727ED2 /* doorbell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A97C3023F4183F00727ED2 /* doorbell.mp3 */; };
+		84A97C3323F4188F00727ED2 /* plop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A97C3223F4188F00727ED2 /* plop.mp3 */; };
+		84A97C3523F418F700727ED2 /* drumroll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A97C3423F418F700727ED2 /* drumroll.mp3 */; };
+		84A97C3723F4197A00727ED2 /* rooster.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84A97C3623F4197A00727ED2 /* rooster.mp3 */; };
+		84DFB47D23F41A2600FD06C0 /* guitar.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84DFB47C23F41A2600FD06C0 /* guitar.mp3 */; };
+		84DFB47F23F41A4000FD06C0 /* harp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84DFB47E23F41A4000FD06C0 /* harp.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		84A97C1A23F4170100727ED2 /* Sound ShakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound ShakerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A97C1E23F4170100727ED2 /* Sound_ShakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound_ShakerUITests.swift; sourceTree = "<group>"; };
 		84A97C2023F4170100727ED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A97C2C23F4170D00727ED2 /* boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing.mp3; sourceTree = "<group>"; };
+		84A97C2E23F417E800727ED2 /* tweet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tweet.mp3; sourceTree = "<group>"; };
+		84A97C3023F4183F00727ED2 /* doorbell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = doorbell.mp3; sourceTree = "<group>"; };
+		84A97C3223F4188F00727ED2 /* plop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = plop.mp3; sourceTree = "<group>"; };
+		84A97C3423F418F700727ED2 /* drumroll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drumroll.mp3; sourceTree = "<group>"; };
+		84A97C3623F4197A00727ED2 /* rooster.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rooster.mp3; sourceTree = "<group>"; };
+		84DFB47C23F41A2600FD06C0 /* guitar.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = guitar.mp3; sourceTree = "<group>"; };
+		84DFB47E23F41A4000FD06C0 /* harp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = harp.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +118,14 @@
 				84A97BFC23F4170000727ED2 /* AppDelegate.swift */,
 				84A97BFE23F4170000727ED2 /* SceneDelegate.swift */,
 				84A97C0023F4170000727ED2 /* ViewController.swift */,
+				84A97C2C23F4170D00727ED2 /* boing.mp3 */,
+				84A97C2E23F417E800727ED2 /* tweet.mp3 */,
+				84A97C3023F4183F00727ED2 /* doorbell.mp3 */,
+				84A97C3223F4188F00727ED2 /* plop.mp3 */,
+				84A97C3423F418F700727ED2 /* drumroll.mp3 */,
+				84A97C3623F4197A00727ED2 /* rooster.mp3 */,
+				84DFB47C23F41A2600FD06C0 /* guitar.mp3 */,
+				84DFB47E23F41A4000FD06C0 /* harp.mp3 */,
 				84A97C0223F4170000727ED2 /* Main.storyboard */,
 				84A97C0523F4170000727ED2 /* Assets.xcassets */,
 				84A97C0723F4170000727ED2 /* LaunchScreen.storyboard */,
@@ -233,8 +257,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A97C0923F4170000727ED2 /* LaunchScreen.storyboard in Resources */,
+				84DFB47F23F41A4000FD06C0 /* harp.mp3 in Resources */,
+				84A97C3523F418F700727ED2 /* drumroll.mp3 in Resources */,
+				84A97C3123F4183F00727ED2 /* doorbell.mp3 in Resources */,
 				84A97C0623F4170000727ED2 /* Assets.xcassets in Resources */,
+				84A97C2D23F4170D00727ED2 /* boing.mp3 in Resources */,
 				84A97C0423F4170000727ED2 /* Main.storyboard in Resources */,
+				84DFB47D23F41A2600FD06C0 /* guitar.mp3 in Resources */,
+				84A97C2F23F417E800727ED2 /* tweet.mp3 in Resources */,
+				84A97C3723F4197A00727ED2 /* rooster.mp3 in Resources */,
+				84A97C3323F4188F00727ED2 /* plop.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
